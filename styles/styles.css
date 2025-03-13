@@ -1,0 +1,65 @@
+/*CSS file shared by all recipe pages*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.recipe-page {
+  width: 80vw;
+  max-width: 600px;
+  margin: 10px 20px;
+}
+
+h1, h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/*styles for recipe images of all recipe pages*/
+.recipe-img-mint, .recipe-img-spinach, .recipe-img-rhubarb {
+  width: 90vw;
+  max-width: 600px;
+}
+
+.recipe-img-mint, .recipe-img-rhubarb {
+  height: auto;
+}
+
+.recipe-img-spinach {
+  height: 50vh;
+  object-fit: cover;
+  object-position: left;
+}
+
+.ingredients-section ul, .steps-section ol {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.ingredients-section li, .steps-section li {
+  margin-bottom: 10px;
+  
+}
+
+.ingredients-section ul li::marker {
+  color: red;
+}
+
+.describe-section , .steps-section {
+  line-height: 25px;
+}
+
+
+
+
